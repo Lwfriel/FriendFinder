@@ -29,7 +29,7 @@ module.exports = function (app) {
     });
 };
 app.post("/api/clear", function (req, res) {
-    surveyData.length = 0;
+    friendsData.length = 0;
     res.json({ ok: true });
 });
 
